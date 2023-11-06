@@ -5,7 +5,9 @@
   ],
   "rules": {
     "no-useless-constructor": "off",
-    "no-new": "off"
+    "no-new": "off",
+    "@typescript-eslint/no-empty-interface": 0,
+    "@typescript-eslint/adjacent-overload-signatures": 0
   },
   "env": {
     "vitest-globals/env": true
